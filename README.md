@@ -164,7 +164,7 @@ Every push to the `main` branch triggers automatic redeployment.
 
 ## 👨‍💻 Author
 
-**Aditya Singh**
+**Aditya Sing**
 
 GitHub:  
 https://github.com/adityasing9
