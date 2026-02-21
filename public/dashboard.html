@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <h2>🔗 My Links</h2>
+    <button onclick="logout()" class="logout-btn">Logout</button>
+</div>
+
+<div class="container">
+    <div class="add-box">
+        <input type="text" id="title" placeholder="Link Title">
+        <input type="text" id="url" placeholder="https://example.com">
+        <button onclick="addLink()" class="main-btn">Add Link</button>
+    </div>
+
+```
+<div class="links-box">
+    <ul id="linkList"></ul>
+</div>
+```
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

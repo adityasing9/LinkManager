@@ -1,0 +1,122 @@
+body {
+margin: 0;
+font-family: 'Segoe UI', sans-serif;
+background: linear-gradient(135deg, #667eea, #764ba2);
+color: #333;
+}
+
+.center {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.card {
+background: white;
+padding: 40px;
+width: 350px;
+border-radius: 15px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+text-align: center;
+}
+
+.subtitle {
+font-size: 14px;
+color: gray;
+margin-bottom: 20px;
+}
+
+.tabs {
+display: flex;
+margin-bottom: 20px;
+}
+
+.tabs button {
+flex: 1;
+padding: 10px;
+border: none;
+cursor: pointer;
+background: #eee;
+}
+
+.tabs .active {
+background: #667eea;
+color: white;
+}
+
+input {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border-radius: 8px;
+border: 1px solid #ccc;
+}
+
+.main-btn {
+width: 100%;
+padding: 10px;
+background: #667eea;
+color: white;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.main-btn:hover {
+background: #5563c1;
+}
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 30px;
+background: white;
+}
+
+.logout-btn {
+padding: 8px 15px;
+border: none;
+background: crimson;
+color: white;
+border-radius: 6px;
+cursor: pointer;
+}
+
+.container {
+padding: 30px;
+}
+
+.add-box {
+background: white;
+padding: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+.links-box {
+background: white;
+padding: 20px;
+border-radius: 10px;
+}
+
+#linkList li {
+display: flex;
+justify-content: space-between;
+margin: 10px 0;
+}
+
+#linkList a {
+text-decoration: none;
+color: #667eea;
+}
+
+#linkList button {
+background: crimson;
+border: none;
+color: white;
+border-radius: 5px;
+padding: 5px 10px;
+cursor: pointer;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>LinkVault</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="center">
+
+<div class="card">
+    <h1>🔗 LinkVault</h1>
+    <p class="subtitle">Save. Organize. Access Anytime.</p>
+
+```
+<div class="tabs">
+    <button onclick="showRegister()" id="regTab" class="active">Register</button>
+    <button onclick="showLogin()" id="loginTab">Login</button>
+</div>
+
+<div id="registerBox">
+    <input type="text" id="regUsername" placeholder="Username">
+    <input type="email" id="regEmail" placeholder="Email">
+    <input type="password" id="regPassword" placeholder="Password">
+    <button onclick="register()" class="main-btn">Create Account</button>
+</div>
+
+<div id="loginBox" style="display:none;">
+    <input type="email" id="loginEmail" placeholder="Email">
+    <input type="password" id="loginPassword" placeholder="Password">
+    <button onclick="login()" class="main-btn">Login</button>
+</div>
+```
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
